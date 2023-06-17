@@ -1,5 +1,5 @@
 {
-  "name": "servocoder/richfilemanager",
+  "name": "ppp01/richfilemanager",
   "description": "RichFilemanager - highly customizable open-source file manager",
   "type": "project",
   "keywords": [
@@ -24,7 +24,13 @@
   "config": {
     "vendor-dir": "connectors/php/vendor"
   },
+  "repositories": [
+    {
+      "type": "vcs",
+      "url": "https://github.com/ppp01/richfilemanager-php"
+    }
+  ],
   "require": {
-    "servocoder/richfilemanager-php": "1.2.6"
+    "ppp01/richfilemanager-php": "dev-master"
   }
 }
