@@ -4531,7 +4531,7 @@ $.richFilemanagerPlugin = function(element, pluginOptions)
 						}
 					},{
 						label: lg('action_select'),
-						closeOnClick: false,
+						closeOnClick: config.manager.closeOnSelect,
 						click: function(e, ui) {
 							$('#fileupload', $uploadContainer).trigger('click');
 						}

@@ -51,7 +51,8 @@
         "renderer": {
             "position": false,
             "indexFile": "readme.md"
-        }
+        },
+        "closeOnSelect": true
     },
     "api": {
         "lang": "php",
