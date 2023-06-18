@@ -4534,6 +4534,9 @@ $.richFilemanagerPlugin = function(element, pluginOptions)
 						closeOnClick: config.manager.closeOnSelect,
 						click: function(e, ui) {
 							$('#fileupload', $uploadContainer).trigger('click');
+							var daddy = window.self;
+							daddy.opener = window.self;
+							daddy.close();
 						}
 					},{
 						type: 'cancel',
